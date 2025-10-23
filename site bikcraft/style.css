@@ -1,0 +1,54 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial
+}
+
+.itens {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  background: white;
+  padding: 10px;
+  margin: 10px;    
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 60px;
+}
+
+.texto-base {
+  background: white;
+  padding: 30px ;
+  text-align: end;
+}
+
+.descricao {
+  font-family: 20px;
+}
+
+.link {
+  background: #ee2211;
+  padding: 10px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+
+  
+
+}
