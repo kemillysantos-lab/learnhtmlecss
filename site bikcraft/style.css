@@ -40,7 +40,7 @@ img {
 .texto-base {
   background: white;
   padding: 30px ;
-  text-align: end;
+  text-align: right;
 }
 
 .descricao {
@@ -55,8 +55,6 @@ img {
   color: white;
   font-size: 10px
 }
-
-/*base 2*/
 
  .title {
   color: #c6c6c6;
