@@ -18,11 +18,17 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.bottons:hover {
+  background: #ee2211;;
+
+
+}
+
 
 a {
   background: white;
-  padding: 10px;
-  margin: 10px;  
+  padding: 0.625rem;
+  margin: 0.625rem;  
   text-decoration: none;
   color: black;  
 }
@@ -35,32 +41,32 @@ img {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0px 60px;
-  max-width: 1000px;
+  margin: 0rem 3.75rem;
+  max-width: 62.5rem;
 }
 
 .texto-base {
   background: white;
-  padding: 30px ;
+  padding: 1.875rem ;
   text-align: right;
 }
 
 .descricao {
-  font-family: 20px;
+  font-family: ;
 }
 
 .link {
   background: #ee2211;
-  padding: 10px 12px;
-  border-radius: 4px;
+  padding: 0.625rem 0.75rem; 
+  border-radius: 0.25rem; 
   text-decoration: none;
   color: white;
-  font-size: 10px
+  font-size: 0.625rem;
 }
 
  .title {
   color: #c6c6c6;
-  padding: 64px;
+  padding: 4rem;
   text-align: end;
  }
 
