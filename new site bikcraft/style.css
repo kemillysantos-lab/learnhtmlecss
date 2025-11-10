@@ -75,6 +75,21 @@ img {
   text-align: end;
  }
 
- .texto-2 {
+ .vantagens {
   background: white;
+  padding: 2.5rem ;
+ }
+
+ .vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+ }
+
+ .vantagens-item p {
+  grid-column: 2;
+ }
+
+ .img-vantagens {
+  width: 3.5vh;
+  height: auto;
  }
