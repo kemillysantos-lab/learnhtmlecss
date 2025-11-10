@@ -18,12 +18,13 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.bottons:hover {
-  border: 0.15rem solid red
-  
+li {
+  list-style: none;
 }
 
-
+.bottons:hover {
+  border: 0.15rem solid red 
+}
 
 a {
   background: white;
