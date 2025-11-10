@@ -69,37 +69,44 @@ img {
   background-color: #af1608;
 }
 
- .title {
+.title {
   color: #c6c6c6;
   padding: 4rem;
   text-align: end;
- }
+}
 
- h4 {
+h4 {
   margin: 0rem;
- }
+}
 
- .vantagens {
+.vantagens {
   background: white;
   padding: 2.5rem ;
- }
-
+}
  
+.vantagens-itens:nth-child(odd) {
+  background: #f7f7f7;
+  padding: 0.3rem;
+}
 
- .vantagens-itens {
+.vantagens-itens {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
- }
+}
 
- .vantagens-itens p {
+.vantagens-itens:hover {
+  border-left: #ee2211 solid 0.25rem;
+}
+
+.vantagens-itens p {
   grid-column: 2; 
- } 
+}
 
- .img-vantagens {
+.img-vantagens {
   width: 3.5vh;
   height: auto;
   grid-column: 1;
   align-self: center;
- }
+}
 
