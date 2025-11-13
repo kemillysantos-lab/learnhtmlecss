@@ -93,6 +93,11 @@ h4 {
   padding: 0.3rem;
 }
 
+.vantagens-itens:nth-child(2) {
+    background: white;
+    padding: 0.3rem;
+  }
+
 .vantagens-itens {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -113,4 +118,15 @@ h4 {
   grid-column: 1;
   align-self: center;
 }
-
+ 
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 0rem 1.25rem;
+  }
+}
+@media (max-width: 10px) {
+  .vantagens-base {
+    grid-template-columns: 1fr;
+  }
+  }
