@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.sobre-mim ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.local {
+    grid-column: 2;
+}
+ 
+
+
+img {
+  max-width: 50%;
+}
