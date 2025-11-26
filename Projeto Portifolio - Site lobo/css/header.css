@@ -12,6 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 
 .header-nav a {
@@ -20,4 +21,17 @@
   text-decoration: none;
   color: #141414;
   padding: 10px 20px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header-nav li {
+    background-color: rgb(243, 239, 234);
+    border-radius: 4px;
+  }
 }

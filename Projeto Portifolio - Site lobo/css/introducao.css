@@ -1,0 +1,37 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 75px;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 2.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  color: #141414;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+
+
+.foto {
+  width: 175px;
+  border-radius: 25%;
+  display: block; 
+  margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    flex-direction: column;
+    align-items: center;
+  } 
+}
