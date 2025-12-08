@@ -27,9 +27,25 @@
   margin: 20px auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .introducao {
     flex-direction: column;
     align-items: center;
   } 
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+
+  .introducao p {
+    font-size: 1.25rem;
+  }
 }
