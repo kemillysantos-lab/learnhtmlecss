@@ -6,3 +6,20 @@
   grid-template-columns: 1fr 2fr;
   gap: 75px;
 }
+
+.experiencia-title {
+  color: #e0e0e0;
+  margin-top: 5px;
+}
+ 
+.experiencia-texto {
+  color: #525252;
+  font-size: 1.5rem;
+  max-width: 40ch;
+  line-height: 1.33;
+  margin-bottom: 50px;
+}
+
+.experiencia-texto strong {
+  color: #141414;
+}
