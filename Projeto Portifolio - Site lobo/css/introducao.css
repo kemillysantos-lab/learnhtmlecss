@@ -9,7 +9,7 @@
 }
 
 .introducao h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.125;
   margin-bottom: 30px;
   color: #141414;
@@ -21,7 +21,7 @@
 }
 
 .foto {
-  width: 175px;
+  width: 250px;
   border-radius: 25%;
   display: block; 
   margin: 20px auto;
@@ -42,10 +42,10 @@
   }
 
   .introducao h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 
   .introducao p {
-    font-size: 1.25rem;
+    font-size: 1.55rem;
   }
 }

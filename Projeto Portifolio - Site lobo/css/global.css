@@ -1,8 +1,9 @@
-.experiencia-title {
+.subtitulo {
     font-size: 6rem;
     line-height: 1;
     word-break: break-all;
     max-width: 4ch;
+    text-transform: uppercase;
 }
 
 li {
@@ -10,7 +11,7 @@ li {
 }
 
 @media (max-width: 768px) {
-    .experiencia-title {
+    .subtitulo {
         font-size: 3rem;
         text-transform: capitalize;
         max-width: none;
